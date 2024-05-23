@@ -12,7 +12,8 @@ This project demonstrates the deployment and management of a MySQL RDS database 
 
 2. Create Our Main Infrastructure
 
-- # VPC Setup:
+- ## VPC Setup:
+
 - One VPC.
 - 2 private and 2 public subnets across 2 different availability zones.
 
