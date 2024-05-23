@@ -4,7 +4,7 @@ This project demonstrates the deployment and management of a MySQL RDS database 
 
 ## Steps to Create the Infrastructure
 
-1. Create Our Remote Backend
+1. ### Create Our Remote Backend
 
 - Set up a remote backend to store Terraform configuration.
 - Create an S3 bucket using Terraform for state file storage.
@@ -12,7 +12,7 @@ This project demonstrates the deployment and management of a MySQL RDS database 
 
 2. Create Our Main Infrastructure
 
-- ## VPC Setup:
+- ### VPC Setup:
 
 - One VPC.
 - 2 private and 2 public subnets across 2 different availability zones.
