@@ -1,0 +1,196 @@
+/* Styles for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+  .hero,
+  header,
+  .section_2,
+  .section_3,
+  .section_4,
+  footer {
+    padding: 11px;
+    width: 94.4%;
+    margin: auto;
+    align-items: center;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flyo_logo {
+    width: 50%;
+  }
+
+  .first_links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section_2 {
+    flex-direction: column-reverse;
+    padding-bottom: 80px;
+  }
+
+  h1 {
+    font-size: 1.6em; /* Decrease heading font size */
+    text-align: center;
+  }
+
+  p {
+    width: 90%; /* Make paragraphs full width */
+    font-size: 1em;
+    text-align: center;
+    margin-left: auto; /* Center paragraphs */
+    margin-right: auto;
+  }
+
+  .section_section_p {
+    font-size: smaller;
+  }
+
+  .first_section_box #emailForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #first_input {
+    width: 80%; /* Make input fields full width */
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .first_section_box .button_1 {
+    width: 85%;
+  }
+
+  .section_3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column-reverse;
+    background-image: url("./images/bg-curve-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 699vw 130vh;
+    background-position-x: center;
+  }
+
+  .section_3 .illustration-2 {
+    padding-bottom: 80px;
+  }
+
+  .section_3_h1 {
+    font-size: 1.1em;
+  }
+
+  .section_3 p {
+    width: 100%;
+    text-align: left;
+  }
+
+  .Fylolink {
+    text-align: center;
+    padding-left: 100px;
+  }
+
+  .section_3 a {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  .border_text {
+    width: 79%;
+    padding: 10px 30px 0px 30px;
+    margin: auto;
+    margin-top: 72px;
+  }
+
+  /* Section  4 design for mobile */
+  .section_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 90px;
+    flex-direction: column;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: 500;
+  }
+
+  #emailForm2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #second_input {
+    width: 69%; /* Make input fields full width */
+    align-items: center;
+  }
+
+  .button_2 {
+    padding: 13px 75px;
+    width: fit-content;
+    text-align: center;
+  }
+
+  .first_section_box,
+  .second_section_box,
+  .secton_3_div,
+  .section_4_div_1,
+  .section_4_div_2 {
+    width: 100%; /* Make sections full width */
+  }
+
+  /* Footer design for mobile */
+
+  footer {
+    padding-top: 180px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    width: 87%;
+    display: grid;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
+
+  .fylo_bottom {
+    width: 85%;
+  }
+
+  .phone-icon,
+  .email-icon {
+    padding-right: 12px;
+    padding-top: 12px;
+  }
+
+  .about_sec {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact_sec {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 15px;
+  }
+
+  .socials {
+    display: flex;
+    width: 100%;
+    padding-left: 40px;
+    margin-top: 80px;
+    justify-content: center;
+  }
+}

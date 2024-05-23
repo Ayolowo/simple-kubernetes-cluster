@@ -1,0 +1,322 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: hsl(243, 87%, 12%);
+}
+
+a:hover {
+  color: purple;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero,
+.section_2,
+.section_3,
+.section_4,
+footer {
+  margin: auto;
+  width: 91%;
+  max-width: 1440px;
+  padding: 71px;
+}
+
+.flyo_logo {
+  width: 100%;
+}
+
+.first_links {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400, 700;
+  color: hsl(243, 87%, 12%);
+}
+
+.first_links a {
+  color: hsl(243, 87%, 12%);
+  text-decoration: none;
+}
+
+/* Second section design starts here */
+.section_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+}
+
+.first_section_box {
+  width: 50%;
+}
+
+span {
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  width: 80%;
+}
+
+#first_input {
+  width: 35%;
+  padding: 12px;
+}
+
+::placeholder {
+  color: rgb(196, 195, 195);
+}
+
+.button_1 {
+  background-color: hsl(224, 93%, 58%);
+  border: 0;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 2px 2px 2px #cccbcb;
+  color: white;
+  padding: 12px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.second_section_box {
+  width: 50%;
+}
+
+.illustration-1 {
+  width: 100%;
+}
+
+/* Third section design starts here */
+
+.section_3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-image: url("./images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 320vw 110vh;
+  background-position-x: center;
+}
+
+.secton_3_div {
+  width: 100%;
+}
+
+.section_3 a {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.illustration-2 {
+  width: 100%;
+}
+
+.Fylolink {
+  color: rgb(46, 154, 61);
+}
+
+.border_text {
+  border: 1px;
+  width: 49%;
+  padding: 10px 30px 10px 30px;
+  margin-top: 50px;
+  border-style: outset;
+  border-color: #aeb6bb2a;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 1px rgb(236, 236, 236);
+}
+
+.border_text .icon_quotes {
+  margin-top: 10px;
+}
+
+.border_text p {
+  width: 100%;
+  color: hsl(243, 87%, 12%);
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 11%;
+  float: left;
+  margin-right: 10px;
+}
+
+.avatar_text {
+  overflow: hidden;
+}
+
+.avatarp_text {
+  font-weight: lighter;
+  font-size: smaller;
+  margin-top: 0;
+}
+
+/*  Fourth section design starts here */
+.section_4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: hsl(238, 22%, 44%);
+  gap: 55px;
+}
+
+.section_4_div_1 {
+  width: 95%;
+  color: white;
+}
+
+.section_4_div_2 {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  gap: 15px;
+}
+
+#emailForm2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+#second_input {
+  width: 70%;
+  padding: 12px;
+}
+
+.button_2 {
+  background-color: hsl(224, 93%, 58%);
+  border: 0;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 1px 1px 1px #343434;
+  color: white;
+  padding: 12px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 14px;
+  width: 35%;
+}
+
+/* To design the footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  background-color: hsl(243, 87%, 12%);
+  color: white;
+}
+
+footer a:hover {
+  color: blue;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.phone-icon,
+.email-icon {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.logo_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.fylo_bottom {
+  width: 70%;
+  filter: brightness(0) invert(1);
+  margin-top: -100px;
+}
+
+.phone-icon {
+  margin-top: 25px;
+}
+.about_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.about_sec a {
+  color: white;
+}
+
+.contact_sec {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact_sec a {
+  color: white;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: -80px;
+}
+
+.socials a {
+  background-color: white;
+  color: hsl(243, 87%, 12%);
+  filter: invert(1);
+}
+
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
