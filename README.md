@@ -17,12 +17,12 @@ This project demonstrates the deployment and management of a MySQL RDS database 
 - One VPC.
 - 2 private and 2 public subnets across 2 different availability zones.
 
-- Networking Components:
+- #### Networking Components:
 - Internet Gateway for outbound internet access.
 - NAT Gateway for secure internet access from private subnets.
 - Route tables, routes, and route table associations.
 
-- Security:
+- #### Security:
 - Security groups for controlling network traffic.
 - A Bastion Host (EC2) in the public subnet for SSH access and downloads.
 
