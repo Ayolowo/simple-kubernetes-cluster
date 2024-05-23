@@ -10,9 +10,9 @@ This project demonstrates the deployment and management of a MySQL RDS database 
 - Create an S3 bucket using Terraform for state file storage.
 - Create a DynamoDB table using Terraform to manage state file locking.
 
-2. Create Our Main Infrastructure
+2. ### Create Our Main Infrastructure
 
-- ### VPC Setup:
+- #### VPC Setup:
 
 - One VPC.
 - 2 private and 2 public subnets across 2 different availability zones.
@@ -26,16 +26,16 @@ This project demonstrates the deployment and management of a MySQL RDS database 
 - Security groups for controlling network traffic.
 - A Bastion Host (EC2) in the public subnet for SSH access and downloads.
 
-3. Create Our Kubernetes (EKS) Cluster
+3. ### Create Our Kubernetes (EKS) Cluster
 
 - Deploy an EKS cluster within the VPC using Terraform.
 
-4. Dockerize the Application
+4. ### Dockerize the Application
 
 - Create a Dockerfile for the application.
 - Build and push the Docker image to DockerHub.
 
-5. Deploy the Web Application
+5. ### Deploy the Web Application
 
 - Use kubectl to deploy the web application manifest files.
 - Create a deployment and a service of type LoadBalancer.
